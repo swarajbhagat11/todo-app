@@ -9,7 +9,7 @@
 - The logic is to retrieve even todos, thus I'm fetching todos from https://jsonplaceholder.typicode.com/todos/{index} where the index starts from 2, 4, 6, 8, 10,... up to 20 elements.
 
 - After retrieving the todo's, I'm displaying the `Todo` title and status on the command line.
-![Todo's title and status](https://github.com/swarajbhagat11/todo-app/images/print_todo_status.png)
+![Todo's title and status](https://github.com/swarajbhagat11/todo-app/blob/main/images/print_todo_status.png)
 
 - You can retrieve an element using the following endpoint: http://localhost:8080/todos/{index}.
 
