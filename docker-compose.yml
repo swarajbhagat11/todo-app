@@ -1,0 +1,8 @@
+services:
+  todo:
+    container_name: todo
+    build: ./
+    image: todo:latest
+    command: ./todo
+    ports:
+      - 8080:8080
